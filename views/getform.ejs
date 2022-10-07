@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <title>Get form</title>
+  </head>
+  <body class="bg-dark text-white">
+    <div class="container mt-4 col-4 col-offset-6">
+      <h1 class="display-3">GET form</h1>
+      <form method="GET" action="/myget">
+        <div class="mb-3">
+          <label for="Firstname" class="form-label">Firstname</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Firstname"
+            aria-describedby="emailHelp"
+            name="firstname"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="Lastname" class="form-label">Lastname</label>
+          <input
+            type="text"
+            class="form-control"
+            id="Lastname"
+            name="lastname"
+          />
+        </div>
+        <!-- <div class="mb-3">
+          <label for="formFile" class="form-label">Upload image</label>
+          <input class="form-control" type="file" id="formFile" />
+        </div> -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
